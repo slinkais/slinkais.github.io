@@ -1,39 +1,93 @@
 * {
     margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.Sparkle {
-    font-size: 24px;
-    font-family: "Arial";
-    -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(transparent, transparent), url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
-    background: -o-linear-gradient(transparent, transparent);
-    -webkit-background-clip: text;
+#header-style {
+    background-color: #1cc401;
+    width: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100px;
 }
 
-li a {
-    background-color: #faff00;
-    font-size: 20px;
+#headertext-style {
+    position: relative;
+    top: 50px;
+    left: 10px;
 }
 
-hr {
-    margin-top: 5px;
-    margin-bottom: 5px;
+#logo-style {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+    background: #555;
 }
 
-body {
-    background-repeat: no-repeat;
-    background-size: cover;
+#content-style {
+    margin: 0 auto;
+    margin-top: 8px;
+    position: relative;
+    max-width: 95%;
 }
 
-.heading-style {
+#menu-list-style {
+    background-color: #876f93;
     text-align: center;
-    color: #333;
-    background: #ccc;
-    font-family: "Arial";
 }
 
-td {
-    padding: 8px;
+#menu-list-style a {
+    margin: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #e88989;
+}
+
+#article-container {
+    position: relative;
+    margin-top: 8px;
+    background-color: #c6c8cd;
+    /*overflow: auto;*/
+}
+
+#article-style {
+    /*position: absolute;*/
+    padding-right: 8px;
+    left: 0px;
+    overflow: auto;
+    background-color: #749632;
+}
+
+#article-style img {
+    width: 200px;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+#sidemenu-style {
+    background-color: #730f1d;
+    width: 150px;
+    float: right;
+    padding-left: 8px;
+    border: 1px solid black;
+}
+
+#sidemenu-style a {
+    color: #955208;
+    text-decoration: none;
+}
+
+#footer-style {
+    clear: both;
     text-align: center;
+    margin: 0 auto;
+    background-color: #c904c7;
 }
